@@ -1,0 +1,6 @@
+{
+  "name": "Hazel",
+  "description": "Voice-navigated incoming caller identification and call intake application powered by Hazel, featuring customizable family and personal voice profiles.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

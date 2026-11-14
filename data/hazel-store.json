@@ -1,0 +1,111 @@
+{
+  "activeVoiceProfileId": "hazel-default",
+  "voiceProfiles": [
+    {
+      "id": "hazel-default",
+      "name": "Hazel",
+      "ownerLabel": "Default AI Assistant · Warm & Articulate",
+      "geminiVoiceName": "Kore",
+      "stylePrompt": "Warm, calm, reassuring, and crisp personal call assistant named Hazel. Speak clearly at a natural conversational pace.",
+      "pitch": 1.02,
+      "rate": 1,
+      "warmthDb": 1.5,
+      "acousticSummary": "Balanced mid-range warmth with clear consonant articulation for hands-free mobile readbacks.",
+      "customClips": {},
+      "isDefault": true,
+      "updatedAt": "2026-11-14T08:00:00.000Z"
+    },
+    {
+      "id": "daughter-voice",
+      "name": "Daughter's Voice",
+      "ownerLabel": "Family Voice Slot · Ready for Recording",
+      "geminiVoiceName": "Zephyr",
+      "stylePrompt": "Bright, affectionate, natural youthful female family voice. Cheerful, gentle, and reassuring when confirming call details.",
+      "pitch": 1.18,
+      "rate": 1.04,
+      "warmthDb": 2,
+      "acousticSummary": "Preset ready for your daughter’s voice sample. Record or upload a 5–15 second clip to match her cadence and store custom voice confirmations.",
+      "customClips": {},
+      "isDefault": false,
+      "updatedAt": "2026-11-14T08:00:00.000Z"
+    },
+    {
+      "id": "my-voice",
+      "name": "My Voice",
+      "ownerLabel": "Personal Voice Slot · Ready for Recording",
+      "geminiVoiceName": "Charon",
+      "stylePrompt": "Grounded, natural, direct personal voice. Concise and steady when reading back caller notes.",
+      "pitch": 0.94,
+      "rate": 0.98,
+      "warmthDb": 1,
+      "acousticSummary": "Preset ready for your own voice sample. Record a quick sample so Hazel adapts to your personal speaking pace and tone.",
+      "customClips": {},
+      "isDefault": false,
+      "updatedAt": "2026-11-14T08:00:00.000Z"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "c-1",
+      "name": "Dr. Elena Rostova",
+      "phone": "+1 (415) 890-2314",
+      "source": "ContactsContract",
+      "organization": "Bayview Pediatrics",
+      "defaultCategory": "Urgent",
+      "notes": "Family pediatrician · direct clinic line"
+    },
+    {
+      "id": "c-2",
+      "name": "Marcus Vance",
+      "phone": "+1 (415) 602-8841",
+      "source": "Cloud CRM",
+      "organization": "Northstar Logistics",
+      "defaultCategory": "Follow-Up",
+      "notes": "Account lead · Tuesday shipment schedule"
+    },
+    {
+      "id": "c-3",
+      "name": "Maya Lin",
+      "phone": "+1 (650) 319-4407",
+      "source": "ContactsContract",
+      "organization": "Family",
+      "defaultCategory": "Personal",
+      "notes": "School pickup & weekend schedule"
+    },
+    {
+      "id": "c-4",
+      "name": "City Dental Care",
+      "phone": "+1 (415) 442-1900",
+      "source": "Cloud CRM",
+      "organization": "Healthcare Appointment Desk",
+      "defaultCategory": "Inquiry",
+      "notes": "Routine checkup confirmations"
+    }
+  ],
+  "callLogs": [
+    {
+      "id": "log-1",
+      "callerName": "Dr. Elena Rostova",
+      "phoneNumber": "+1 (415) 890-2314",
+      "category": "Urgent",
+      "priority": "High",
+      "notes": "Prescription ready at Oakridge Pharmacy before 6:00 PM; follow-up visit confirmed for Thursday at 10:30 AM.",
+      "lookupSource": "ContactsContract",
+      "voiceProfileId": "hazel-default",
+      "voiceProfileName": "Hazel",
+      "createdAt": "2026-11-14T07:42:00.000Z"
+    },
+    {
+      "id": "log-2",
+      "callerName": "Marcus Vance",
+      "phoneNumber": "+1 (415) 602-8841",
+      "category": "Follow-Up",
+      "priority": "Normal",
+      "notes": "Asked for updated warehouse dock code and revised invoice reference.",
+      "lookupSource": "Cloud CRM",
+      "voiceProfileId": "hazel-default",
+      "voiceProfileName": "Hazel",
+      "createdAt": "2026-11-13T16:15:00.000Z"
+    }
+  ]
+}
